@@ -1,0 +1,8 @@
+The file /etc/fstab lists file syemsts to be mounted.
+
+This is an example of a very simple /etc/fstab:
+#
+# /storage  ; make sure everybody can read and write
+/dev/sda 	/storage	vfat	rw,user,exec,umask=000 	0	0
+
+
